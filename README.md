@@ -14,7 +14,7 @@ Welcome to my first Kubernetes deployment project! This repository contains conf
 - [Learning Resources](#learning-resources)
 - [Contributing](#contributing)
 
-## 🎯 Overview
+##  Overview
 
 This project demonstrates basic Kubernetes concepts including:
 - **Namespaces** - Organizing and isolating cluster resources
@@ -22,7 +22,7 @@ This project demonstrates basic Kubernetes concepts including:
 - **Services** - Exposing applications within the cluster
 - **Pods** - The smallest deployable units in Kubernetes
 
-## 📚 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -55,7 +55,7 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -65,7 +65,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 └── README.md                # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -88,7 +88,7 @@ kubectl get nodes
 kubectl get pods --all-namespaces
 ```
 
-## 🔧 Deployment Instructions
+##  Deployment Instructions
 
 ### Method 1: Using kubectl directly
 
@@ -132,7 +132,7 @@ kubectl apply -f .
 kubectl get all -n <your-namespace>
 ```
 
-## 📝 Useful Commands
+##  Useful Commands
 
 ### Basic Kubernetes Commands
 ```bash
@@ -174,7 +174,7 @@ kubectl top nodes
 kubectl top pods
 ```
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -221,7 +221,7 @@ kubectl get ingress
 kubectl describe all
 ```
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 ### Official Documentation
 - [Kubernetes Official Docs](https://kubernetes.io/docs/)
