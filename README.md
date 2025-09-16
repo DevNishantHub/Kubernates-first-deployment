@@ -1,8 +1,8 @@
-# Kubernetes First Deployment 🚀
+# Kubernetes First Deployment 
 
 Welcome to my first Kubernetes deployment project! This repository contains configuration files and examples for deploying applications to a Kubernetes cluster.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
